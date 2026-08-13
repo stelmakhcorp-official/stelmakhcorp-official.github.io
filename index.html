@@ -59,8 +59,18 @@
       padding-left: 10px;
     }
 
+    h3 {
+     margin-top: 30px;
+     color: #333;
+     font-size: 20px;
+     font-weight: 600;
+     border-left: 3px solid #ccc;
+     padding-left: 10px;
+    }
+
     ul {
       margin-left: 20px;
+      margin-bottom: 20px;
     }
 
     pre {
@@ -116,6 +126,56 @@
     <li>Optimised for PostgreSQL 15–18+</li>
     <li>Ideal foundation for ERP/CRM/DMS/HR/Finance systems</li>
   </ul>
+<h2>Domain Architecture (Logical Model)</h2>
+
+<h3>Legal Entities</h3>
+<ul>
+  <li>t_legal_entity</li>
+  <li>t_legal_entity_bank_account</li>
+  <li>t_legal_entity_activity</li>
+</ul>
+
+<h3>Documents & Workflow</h3>
+<ul>
+  <li>t_document</li>
+  <li>t_document_type</li>
+  <li>t_document_subtype</li>
+  <li>t_document_workflow</li>
+</ul>
+
+<h3>Finance & Capital</h3>
+<ul>
+  <li>t_bank_account</li>
+  <li>t_temporary_account</li>
+  <li>t_unit_payment</li>
+  <li>t_bill</li>
+  <li>t_bill_item</li>
+</ul>
+
+<h3>Business Units</h3>
+<ul>
+  <li>t_unit</li>
+  <li>t_unit_employee</li>
+  <li>t_unit_address</li>
+  <li>t_unit_activity</li>
+  <li>t_unit_process</li>
+</ul>
+
+<h3>Sales & Expenses</h3>
+<ul>
+  <li>t_unit_sales</li>
+  <li>t_unit_sales_summary</li>
+  <li>t_unit_expense</li>
+  <li>t_unit_expense_summary</li>
+</ul>
+
+<h3>Assets & Licensing</h3>
+<ul>
+  <li>t_instrument</li>
+  <li>t_instrument_type</li>
+  <li>t_instrument_subtype</li>
+  <li>t_product_license</li>
+</ul>
 
   <h2>Installation</h2>
   <pre>
