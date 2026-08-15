@@ -60,24 +60,17 @@
     }
 
     h3 {
-     margin-top: 30px;
-     color: #333;
-     font-size: 20px;
-     font-weight: 600;
-     border-left: 3px solid #ccc;
-     padding-left: 10px;
+      margin-top: 30px;
+      color: #333;
+      font-size: 20px;
+      font-weight: 600;
+      border-left: 3px solid #ccc;
+      padding-left: 10px;
     }
 
     ul {
       margin-left: 20px;
       margin-bottom: 20px;
-    }
-
-    pre {
-      background: #eee;
-      padding: 15px;
-      border-radius: 6px;
-      overflow-x: auto;
     }
 
     footer {
@@ -94,7 +87,7 @@
 <body>
 
 <header>
-  <img src="logo.jpeg" alt="Stelmakh Corp Logo">
+  <img src="logo.jpeg" alt="Stelmakh© Corp™ Logo">
   <h1>STELMAKH_CORP — Enterprise Business Core for PostgreSQL</h1>
   <p>Corporate-grade data architecture for ERP, CRM, HRM, FinTech and GovTech systems.</p>
   <p><strong>Perpetual License — 10,000 USD per installation</strong></p>
@@ -126,73 +119,68 @@
     <li>Optimised for PostgreSQL 15–18+</li>
     <li>Ideal foundation for ERP/CRM/DMS/HR/Finance systems</li>
   </ul>
-<h2>Domain Architecture (Logical Model)</h2>
 
-<h3>Legal Entities</h3>
-<ul>
-  <li>t_legal_entity</li>
-  <li>t_legal_entity_bank_account</li>
-  <li>t_legal_entity_activity</li>
-</ul>
+  <h2>Domain Architecture (Logical Model)</h2>
 
-<h3>Documents & Workflow</h3>
-<ul>
-  <li>t_document</li>
-  <li>t_document_type</li>
-  <li>t_document_subtype</li>
-  <li>t_document_workflow</li>
-</ul>
+  <h3>Legal Entities</h3>
+  <ul>
+    <li>t_legal_entity</li>
+    <li>t_legal_entity_bank_account</li>
+    <li>t_legal_entity_activity</li>
+  </ul>
 
-<h3>Finance & Capital</h3>
-<ul>
-  <li>t_bank_account</li>
-  <li>t_temporary_account</li>
-  <li>t_unit_payment</li>
-  <li>t_bill</li>
-  <li>t_bill_item</li>
-</ul>
+  <h3>Documents & Workflow</h3>
+  <ul>
+    <li>t_document</li>
+    <li>t_document_type</li>
+    <li>t_document_subtype</li>
+    <li>t_document_workflow</li>
+  </ul>
 
-<h3>Business Units</h3>
-<ul>
-  <li>t_unit</li>
-  <li>t_unit_employee</li>
-  <li>t_unit_address</li>
-  <li>t_unit_activity</li>
-  <li>t_unit_process</li>
-</ul>
+  <h3>Finance & Capital</h3>
+  <ul>
+    <li>t_bank_account</li>
+    <li>t_temporary_account</li>
+    <li>t_unit_payment</li>
+    <li>t_bill</li>
+    <li>t_bill_item</li>
+  </ul>
 
-<h3>Sales & Expenses</h3>
-<ul>
-  <li>t_unit_sales</li>
-  <li>t_unit_sales_summary</li>
-  <li>t_unit_expense</li>
-  <li>t_unit_expense_summary</li>
-</ul>
+  <h3>Business Units</h3>
+  <ul>
+    <li>t_unit</li>
+    <li>t_unit_employee</li>
+    <li>t_unit_address</li>
+    <li>t_unit_activity</li>
+    <li>t_unit_process</li>
+  </ul>
 
-<h3>Assets & Licensing</h3>
-<ul>
-  <li>t_instrument</li>
-  <li>t_instrument_type</li>
-  <li>t_instrument_subtype</li>
-  <li>t_product_license</li>
-</ul>
+  <h3>Sales & Expenses</h3>
+  <ul>
+    <li>t_unit_sales</li>
+    <li>t_unit_sales_summary</li>
+    <li>t_unit_expense</li>
+    <li>t_unit_expense_summary</li>
+  </ul>
 
-<h2>What You Get</h2>
-<ul>
-  <li>Full PostgreSQL schema (SQL dump)</li>
-  <li>This product provides a data architecture only. Application‑level ERP logic is not included.</li>
-  <li>ERD diagram (grouped by domains)</li>
-  <li>Domain documentation</li>
-  <li>Installation guide</li>
-  <li>Commercial license</li>
-  <li>Production‑ready architecture</li>
-</ul>
-  
-  <h2>Installation</h2>
-  <pre>
-CREATE DATABASE stelmakh_corp;
-psql -U postgres -d stelmakh_corp -f stelmakh_corp_core.sql
-  </pre>
+  <h3>Assets & Licensing</h3>
+  <ul>
+    <li>t_instrument</li>
+    <li>t_instrument_type</li>
+    <li>t_instrument_subtype</li>
+    <li>t_product_license</li>
+  </ul>
+
+  <h2>What You Get</h2>
+  <ul>
+    <li>Full PostgreSQL schema (SQL dump)</li>
+    <li>Data architecture only — no application-level ERP logic</li>
+    <li>ERD diagram (grouped by domains)</li>
+    <li>Domain documentation</li>
+    <li>Deployment guide (PDF)</li>
+    <li>Commercial license</li>
+    <li>Production-ready architecture</li>
+  </ul>
 
   <h2>System Requirements</h2>
   <ul>
@@ -203,73 +191,73 @@ psql -U postgres -d stelmakh_corp -f stelmakh_corp_core.sql
   </ul>
 
   <h2>Deployment Environments</h2>
-<ul>
-  <li>Local development</li>
-  <li>On‑premise servers</li>
-</ul>
+  <ul>
+    <li>Local development</li>
+    <li>On-premise servers</li>
+  </ul>
 
-<h2>Use Cases</h2>
-<ul>
-  <li>Enterprise software development</li>
-  <li>Corporate system integration</li>
-  <li>Startup platforms</li>
-  <li>Internal tools</li>
-  <li>Financial & administrative systems</li>
-  <li>Document management</li>
-  <li>Multi‑unit business operations</li>
-</ul>
+  <h2>Use Cases</h2>
+  <ul>
+    <li>Enterprise software development</li>
+    <li>Corporate system integration</li>
+    <li>Startup platforms</li>
+    <li>Internal tools</li>
+    <li>Financial & administrative systems</li>
+    <li>Document management</li>
+    <li>Multi-unit business operations</li>
+  </ul>
 
-<h2>Licensing</h2>
-<ul>
-  <li>Commercial Single‑Server License</li>
-  <li>Perpetual</li>
-  <li>Non‑transferable</li>
-  <li>Internal use only</li>
-  <li>No redistribution or SaaS usage</li>
-  <li>Additional servers require additional licenses</li>
-  <li>Full license text included in /Docs/Stelmakh© Corp™ LICENSE.pdf</li>
-</ul>
+  <h2>Licensing</h2>
+  <ul>
+    <li>Commercial Single-Server License</li>
+    <li>Perpetual</li>
+    <li>Non-transferable</li>
+    <li>Internal use only</li>
+    <li>No redistribution or SaaS usage</li>
+    <li>Additional servers require additional licenses</li>
+    <li>Full license text included in /Docs/Stelmakh© Corp™ LICENSE.pdf</li>
+  </ul>
 
-<p>
-Integration, adaptation and ERP implementation are not part of this product and are not permitted under the Commercial Single‑Server License.
-</p>
+  <p>
+    Integration, adaptation and ERP implementation are not part of this product and are not permitted under the Commercial Single-Server License.
+  </p>
 
-<h2>Modification Rights (Internal Use Only)</h2>
-<p>The Licensee may:</p>
-<ul>
-  <li>extend the database schema</li>
-  <li>add new tables, fields, indexes or domains</li>
-  <li>integrate the architecture into internal corporate systems</li>
-  <li>adapt the structure for internal business processes</li>
-</ul>
+  <h2>Modification Rights (Internal Use Only)</h2>
+  <p>The Licensee may:</p>
+  <ul>
+    <li>extend the database schema</li>
+    <li>add new tables, fields, indexes or domains</li>
+    <li>integrate the architecture into internal corporate systems</li>
+    <li>adapt the structure for internal business processes</li>
+  </ul>
 
-<p>
-All modifications are permitted only within the Licensee’s own infrastructure (one physical or virtual server per license).
-</p>
+  <p>
+    All modifications are permitted only within the Licensee’s own infrastructure (one physical or virtual server per license).
+  </p>
 
-<p>
-The STELMAKH_CORP Business Core may be installed, used and modified only on a single physical or virtual machine per license. Any use outside this single machine — including cloud deployment, SaaS integration, redistribution or embedding into commercial products — is strictly prohibited.
-</p>
+  <p>
+    The STELMAKH_CORP Business Core may be installed, used and modified only on a single physical or virtual machine per license. Any use outside this single machine — including cloud deployment, SaaS integration, redistribution or embedding into commercial products — is strictly prohibited.
+  </p>
 
-<p>The Licensee is strictly prohibited from:</p>
-<ul>
-  <li>incorporating the architecture into any commercial product</li>
-  <li>using it in SaaS, cloud or multi‑tenant services</li>
-  <li>redistributing modified or original versions</li>
-  <li>creating derivative or competing database products</li>
-</ul>
+  <p>The Licensee is strictly prohibited from:</p>
+  <ul>
+    <li>incorporating the architecture into any commercial product</li>
+    <li>using it in SaaS, cloud or multi-tenant services</li>
+    <li>redistributing modified or original versions</li>
+    <li>creating derivative or competing database products</li>
+  </ul>
 
-<p>
-All usage is limited to internal, non‑commercial distribution within the Licensee’s organization.
-</p>
-  
+  <p>
+    All usage is limited to internal, non-commercial distribution within the Licensee’s organization.
+  </p>
+
   <h2>Contact</h2>
   <p>Email: <a href="mailto:stelmakhcorp@gmail.com">stelmakhcorp@gmail.com</a></p>
 
 </div>
 
 <footer>
-  © 2026 STELMAKH_CORP — Enterprise Business Architecture
+  © 2026 Stelmakh© Corp™ — Enterprise Business Architecture
 </footer>
 
 </body>
